@@ -2,8 +2,8 @@ import os
 from pyquil.gates import *
 from pyquil.quil import Program 
 from pyquil.api import QVMConnection 
-API_KEY = "nmRPAVunQl19TtQz9eMd11iiIsArtUDTaEnsSV6u"
-USER_ID = "2a712fab-4095-4342-87a2-811f8cba905e" 
+API_KEY = "YOUR_KEY"
+USER_ID = "YOUR_ID" 
 
 with open(os.path.expanduser('~/.pyquil_config'), 'w') as f:
     f.write(PYQUIL_CONFIG)
